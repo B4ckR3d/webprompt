@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;background:#0a0e27;color:white;height:100vh;overflow:hidden}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:16px 32px}
+.logo{font-weight:800;font-size:18px}
+.nav-links{display:flex;gap:24px;font-size:13px;color:#94a3b8}
+.cta-nav{background:#6366f1;color:white;padding:8px 18px;border-radius:8px;font-size:13px;font-weight:600}
+.hero{display:flex;align-items:center;justify-content:center;height:calc(100vh - 60px);padding:0 60px}
+.hero-left{flex:1}
+.badge{display:inline-block;background:rgba(99,102,241,0.2);border:1px solid rgba(99,102,241,0.3);color:#a5b4fc;padding:4px 14px;border-radius:20px;font-size:12px;margin-bottom:16px}
+h1{font-size:52px;font-weight:900;line-height:1.05;margin-bottom:16px}
+.gradient{background:linear-gradient(135deg,#818cf8,#c084fc,#f472b6);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+p{color:#94a3b8;font-size:15px;max-width:440px;line-height:1.6;margin-bottom:24px}
+.buttons{display:flex;gap:12px}
+.btn-p{background:#6366f1;color:white;padding:12px 24px;border-radius:10px;font-size:14px;font-weight:600}
+.btn-s{background:transparent;border:1.5px solid #334155;color:white;padding:12px 24px;border-radius:10px;font-size:14px;font-weight:500}
+.hero-right{flex:1;display:flex;justify-content:center;align-items:center;position:relative}
+.cube{width:200px;height:200px;background:linear-gradient(135deg,#6366f1,#8b5cf6);border-radius:24px;transform:rotate(-12deg) skewY(3deg);box-shadow:0 40px 80px rgba(99,102,241,0.3);position:relative}
+.cube::before{content:'';position:absolute;top:-20px;right:-20px;width:160px;height:160px;background:linear-gradient(135deg,#a78bfa,#c084fc);border-radius:20px;transform:rotate(12deg);opacity:0.6}
+.cube::after{content:'';position:absolute;bottom:-30px;left:20px;width:120px;height:120px;background:linear-gradient(135deg,#f472b6,#ec4899);border-radius:16px;transform:rotate(-6deg);opacity:0.4}
+.stats{display:flex;gap:40px;margin-top:32px}
+.stat-val{font-size:24px;font-weight:800}
+.stat-lbl{font-size:11px;color:#64748b;margin-top:2px}
+</style></head><body>
+<div class="nav"><div class="logo">CUBEKIT</div><div class="nav-links"><span>Features</span><span>Pricing</span><span>About</span></div><div class="cta-nav">Get Started</div></div>
+<div class="hero"><div class="hero-left"><div class="badge">🚀 New Release v3.0</div><h1>Build the<br><span class="gradient">Future</span><br>of Design</h1><p>Create stunning 3D experiences with our cutting-edge toolkit. Ship faster with pre-built components.</p><div class="buttons"><div class="btn-p">Start Free Trial →</div><div class="btn-s">Watch Demo</div></div><div class="stats"><div><div class="stat-val">10K+</div><div class="stat-lbl">Designers</div></div><div><div class="stat-val">500+</div><div class="stat-lbl">Components</div></div><div><div class="stat-val">99%</div><div class="stat-lbl">Satisfaction</div></div></div></div><div class="hero-right"><div class="cube"></div></div></div>
+</body></html>

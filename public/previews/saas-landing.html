@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', system-ui, sans-serif; background: #0f172a; color: white; overflow: hidden; }
+.nav { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background: #1e293b; }
+.logo { font-weight: 700; font-size: 13px; }
+.nav-links { display: flex; gap: 14px; font-size: 10px; color: #94a3b8; }
+.cta { background: #6366f1; color: white; padding: 5px 12px; border-radius: 5px; font-size: 10px; }
+.hero { text-align: center; padding: 40px 20px 20px; }
+.badge { display: inline-block; background: rgba(34,197,94,0.2); color: #4ade80; padding: 3px 10px; border-radius: 12px; font-size: 9px; margin-bottom: 10px; }
+h1 { font-size: 28px; font-weight: 800; margin-bottom: 8px; line-height: 1.1; }
+.sub { color: #64748b; font-size: 11px; margin-bottom: 16px; max-width: 350px; margin-left: auto; margin-right: auto; }
+.cta-btn { display: inline-block; background: #6366f1; color: white; padding: 8px 18px; border-radius: 6px; font-size: 11px; font-weight: 600; }
+.features { display: flex; gap: 10px; padding: 20px; justify-content: center; }
+.feature { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 12px; width: 100px; text-align: center; }
+.feature-icon { font-size: 20px; margin-bottom: 6px; }
+.feature-title { font-size: 10px; font-weight: 600; margin-bottom: 3px; }
+.feature-desc { font-size: 8px; color: #64748b; }
+.metrics { display: flex; gap: 20px; justify-content: center; padding: 15px; background: #1e293b; margin: 0 20px; border-radius: 10px; }
+.metric { text-align: center; }
+.metric-value { font-size: 18px; font-weight: 700; color: #6366f1; }
+.metric-label { font-size: 8px; color: #64748b; margin-top: 2px; }
+.integrations { text-align: center; padding: 15px 20px; }
+.integrations-title { font-size: 9px; color: #64748b; margin-bottom: 10px; }
+.logos { display: flex; gap: 15px; justify-content: center; align-items: center; }
+.logo-item { background: #1e293b; padding: 6px 12px; border-radius: 5px; font-size: 9px; color: #94a3b8; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="nav">
+  <div class="logo">SaaSify</div>
+  <div class="nav-links">
+    <span>Features</span>
+    <span>Pricing</span>
+    <span>Docs</span>
+  </div>
+  <div class="cta">Start Free</div>
+</div>
+<div class="hero">
+  <div class="badge">✨ Now with AI Integration</div>
+  <h1>Build Faster<br>Ship Smarter</h1>
+  <div class="sub">The all-in-one platform for modern teams. Automate workflows, analyze data, and scale effortlessly.</div>
+  <div class="cta-btn">Start Free Trial →</div>
+</div>
+<div class="features">
+  <div class="feature">
+    <div class="feature-icon">⚡</div>
+    <div class="feature-title">Lightning Fast</div>
+    <div class="feature-desc">99.9% uptime SLA</div>
+  </div>
+  <div class="feature">
+    <div class="feature-icon">🔒</div>
+    <div class="feature-title">Secure</div>
+    <div class="feature-desc">SOC2 compliant</div>
+  </div>
+  <div class="feature">
+    <div class="feature-icon">📊</div>
+    <div class="feature-title">Analytics</div>
+    <div class="feature-desc">Real-time insights</div>
+  </div>
+  <div class="feature">
+    <div class="feature-icon">🔗</div>
+    <div class="feature-title">Integrations</div>
+    <div class="feature-desc">200+ apps</div>
+  </div>
+</div>
+<div class="metrics">
+  <div class="metric"><div class="metric-value">10K+</div><div class="metric-label">Active Users</div></div>
+  <div class="metric"><div class="metric-value">99.9%</div><div class="metric-label">Uptime</div></div>
+  <div class="metric"><div class="metric-value">50M+</div><div class="metric-label">API Calls</div></div>
+  <div class="metric"><div class="metric-value">4.9★</div><div class="metric-label">Rating</div></div>
+</div>
+<div class="integrations">
+  <div class="integrations-title">Trusted by leading companies</div>
+  <div class="logos">
+    <div class="logo-item">Stripe</div>
+    <div class="logo-item">Notion</div>
+    <div class="logo-item">Slack</div>
+    <div class="logo-item">GitHub</div>
+    <div class="logo-item">Vercel</div>
+  </div>
+</div>
+</body>
+</html>

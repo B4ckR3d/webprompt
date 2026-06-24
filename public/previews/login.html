@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', system-ui, sans-serif; background: #fafaf9; color: #1c1917; overflow: hidden; display: flex; height: 100vh; }
+.left { flex: 1; background: linear-gradient(135deg, #667eea, #764ba2); display: flex; flex-direction: column; justify-content: center; padding: 40px; color: white; }
+.left h2 { font-size: 24px; font-weight: 800; margin-bottom: 10px; }
+.left p { font-size: 12px; opacity: 0.8; line-height: 1.6; }
+.left-features { margin-top: 20px; }
+.feature { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 11px; }
+.feature-icon { width: 20px; height: 20px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; }
+.right { flex: 1; display: flex; align-items: center; justify-content: center; padding: 40px; }
+.form-container { width: 100%; max-width: 280px; }
+.logo { font-weight: 700; font-size: 16px; margin-bottom: 6px; }
+.form-desc { font-size: 11px; color: #57534e; margin-bottom: 20px; }
+.tabs { display: flex; background: #f5f5f4; border-radius: 6px; padding: 2px; margin-bottom: 16px; }
+.tab { flex: 1; padding: 6px; text-align: center; border-radius: 5px; font-size: 10px; font-weight: 500; }
+.tab.active { background: white; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+.label { font-size: 10px; font-weight: 500; color: #57534e; margin-bottom: 4px; }
+.input { width: 100%; padding: 8px 10px; border: 1px solid #e7e5e4; border-radius: 6px; font-size: 11px; margin-bottom: 10px; background: white; }
+.btn { width: 100%; padding: 9px; background: #6366f1; color: white; border-radius: 6px; font-size: 11px; font-weight: 600; text-align: center; margin-top: 6px; }
+.forgot { text-align: center; font-size: 10px; color: #6366f1; margin-top: 8px; }
+.switch { text-align: center; font-size: 10px; color: #57534e; margin-top: 16px; padding-top: 12px; border-top: 1px solid #e7e5e4; }
+.switch a { color: #6366f1; font-weight: 500; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="left">
+  <h2>Welcome to<br>PromptVault</h2>
+  <p>Access premium AI prompts for building stunning websites in minutes.</p>
+  <div class="left-features">
+    <div class="feature"><div class="feature-icon">✨</div> 80+ Production-ready prompts</div>
+    <div class="feature"><div class="feature-icon">⚡</div> Copy & paste in seconds</div>
+    <div class="feature"><div class="feature-icon">🎯</div> Works with any AI tool</div>
+  </div>
+</div>
+<div class="right">
+  <div class="form-container">
+    <div class="logo">PromptVault</div>
+    <div class="form-desc">Sign in to your account</div>
+    <div class="tabs">
+      <div class="tab active">Sign In</div>
+      <div class="tab">Sign Up</div>
+    </div>
+    <div class="label">Email</div>
+    <input class="input" placeholder="you@example.com" value="john@example.com">
+    <div class="label">Password</div>
+    <input class="input" type="password" placeholder="••••••••" value="password123">
+    <div class="btn">Sign In</div>
+    <div class="forgot">Forgot password?</div>
+    <div class="switch">Don't have an account? <a>Sign up free</a></div>
+  </div>
+</div>
+</body>
+</html>
